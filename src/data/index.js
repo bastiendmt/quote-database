@@ -19,7 +19,7 @@ const esAction = {
   })
 ];
 
-async function populateDatabase() {
+export async function populateDatabase() {
   const docs = [];
   for (const quote of quotes) {
     docs.push(esAction);
